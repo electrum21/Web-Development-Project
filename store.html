@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store</title>
+  <link href="styling.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="fun.js"></script>
+</head>
+
+<body>
+  <div>
+    <nav class="navbar">
+      <a class="navitem" href="homepage.html"><i class="fa fa-fw fa-home"></i>Home</a>
+      <a class="navitem" href="history.html"><i id="sticky" class="fa fa-sticky-note" aria-hidden="true"></i>History</a>
+      <span class="drop">
+        <button class="dropper"><a class="navitem" href="members.html"><i class="fa fa-fw fa-user"></i>Members</a></button>
+        <div class="mem">
+        <a href="members.html#soy">Soyeon</a>
+        <a href="members.html#min">Minnie</a>
+        <a href="members.html#shu">Shuhua</a>
+        <a href="members.html#yuq">Yuqi</a>
+        <a href="members.html#miy">Miyeon</a>
+        <a href="members.html#soo">Soojin</a>
+      </div>
+    </span>
+      <a class="navitem current" href=""><i id="sticky" class="fa fa-shopping-cart" aria-hidden="true"></i>Store</a>
+    </nav>
+  </div>
+  <div class="a">
+    (G)I-DLE's Merchandise
+  </div>
+  <div class="cartbg close">
+    <hr>
+    <h2 class="big albums">Albums<i id="sticky" class="fa fa-book" aria-hidden="true"></i></h2>
+    <hr>
+  </div>
+  <div class="storeitems">
+    <h3>'I Am' Album</h3>
+    <div class="gallery">
+      <table>
+        <tr>
+          <td rowspan="3"><img id="imggallery1" src="media/album1.png" alt="I Am Album" height="400px" /></td>
+          <td id="bor"><img id="g1p1" src="media/iam.png" onclick=showimg("g1p1","imggallery1") alt="I Am Album" /></td>
+        </tr>
+        <tr>
+          <td id="bor"><img id="g1p2" onclick=showimg("g1p2","imggallery1") src="media/album1.png" alt="I Am Album" /></td>
+        <tr>
+          <td id="bor"><img id="g1p3" src="media/iam1.png" onclick=showimg("g1p3","imggallery1") alt="I Am Album" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">Click on the images to view them.</td>
+        </tr>
+      </table>
+    </div><br>
+    <p>(G)I-DLE's Debut Album comes with a CD, 3 photocards and 1 member's full-size poster<br><br>
+      Cost:$20.50<br><br>
+      <button class="add" type="button" onclick='add("cartpic")'>Add To Cart<i id="basket" class="fa fa-shopping-basket" aria-hidden="true"></i></button><br><br><br></p>
+    <h3>'I Made' Album</h3>
+    <div class="gallery">
+      <table>
+        <tr>
+          <td rowspan="3"><img id="imggallery2" src="media/album2.jpg" alt="I Made Album" height="400px" /></td>
+          <td id="bor"><img id="g2p1" src="media/imade1.jpg" onclick=showimg("g2p1","imggallery2") alt="I Made Album" /></td>
+        </tr>
+        <tr>
+          <td id="bor"><img id="g2p2" onclick=showimg("g2p2","imggallery2") src="media/album2.jpg" alt="I Made Album" /></td>
+        <tr>
+          <td id="bor"><img id="g2p3" src="media/imade.jpg" onclick=showimg("g2p3","imggallery2") alt="I Made Album" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">Click on the images to view them.</td>
+        </tr>
+      </table>
+    </div><br>
+    <p>(G)I-DLE's Second Album comes with a CD, a photobook, 1 random photocard and 1 member's full-size poster<br><br>
+      Cost:$23.50<br><br>
+      <button class="add" type="button" onclick='add("cartpic1")'>Add To Cart<i id="basket" class="fa fa-shopping-basket" aria-hidden="true"></i></button><br><br><br></p>
+    <h3>'I Trust' Album</h3>
+    <div class="gallery">
+      <table>
+        <tr>
+          <td rowspan="3"><img id="imggallery3" src="media/album3.jpg" alt="I Trust Album" height="400px" /></td>
+          <td id="bor"><img id="g3p1" src="media/itrusttrue.png" onclick=showimg("g3p1","imggallery3") alt="I Trust Album" /></td>
+        </tr>
+        <tr>
+          <td id="bor"><img id="g3p2" onclick=showimg("g3p2","imggallery3") src="media/album3.jpg" alt="I Trust Album" /></td>
+        <tr>
+          <td id="bor"><img id="g3p3" src="media/itrustlie.png" onclick=showimg("g3p3","imggallery3") alt="I Trust Album" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">Click on the images to view them.</td>
+        </tr>
+      </table>
+    </div><br>
+    <p>(G)I-DLE's Third Album comes in 2 versions, Lie and Truth Version. Each version comes with a CD, 3 photocards and 1 member's full-size poster<br><br>
+      Cost:$26.00<br><br>
+      <button type="button" class="add" onclick='add("cartpic2")'>Add To Cart<i id="basket" class="fa fa-shopping-basket" aria-hidden="true"></i></button><br><br><br></p>
+    <div class="cartbg">
+      <hr>
+      <h2 class="big">Others</h2>
+      <hr>
+    </div><br><br>
+    <h3>(G)I-DLE's Lightstick<br>(Neverbong)</h3>
+    <div class="gallery">
+      <table>
+        <tr>
+          <td rowspan="3"><img id="imggallery4" src="media/lightstick.jpg" alt="Lightstick" height="400px" /></td>
+          <td id="bor"><img id="g4p1" src="media/neverbong.jpg" onclick=showimg("g4p1","imggallery4") alt="Lightstick" /></td>
+        </tr>
+        <tr>
+          <td id="bor"><img id="g4p2" onclick=showimg("g4p2","imggallery4") src="media/lightstick.jpg" alt="Lightstick" /></td>
+        <tr>
+          <td id="bor"><img id="g4p3" src="media/neverbong1.jpg" onclick=showimg("g4p3","imggallery4") alt="Lightstick" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">Click on the images to view them.</td>
+        </tr>
+      </table>
+    </div><br>
+    <p>This lightstick would come in handy when attending their concerts as you can show your support for them!<br><br>
+      Cost:$52.50<br><br>
+      <button type="button" class="add" onclick='add("cartpic3")'>Add To Cart<i id="basket" class="fa fa-shopping-basket" aria-hidden="true"></i></button><br><br><br></p>
+    <div class="cartbg">
+      <hr>
+      <h2 class="big">Cart<i id="sticky" class="fa fa-shopping-basket" aria-hidden="true"></i></h2>
+      <hr>
+    </div><br><br>
+    <table class="cartable" border="1">
+      <thead>
+        <tr id="tablehead">
+          <th class="item">Item</th>
+          <th class="title">Title</th>
+          <th class="qty">Quantity</th>
+          <th class="price">Total Price ($)</th>
+          <th class="cancel">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="cartpic" style="display:none;">
+          <td><img class="smallersize" src="media/album1.png" /></td>
+          <td>'I Am' Album</td>
+          <td><button type="button" class="inc" onclick="increase('item','price','20.50')">+</button><input readonly id="item" class="noofitems" type="number" value=1 required /><button type="button" class="dec" onclick="decrease('item','price','20.50')">-</button></td>
+          <td><input id="price" readonly type="number" value="20.50"/></td>
+          <td><button type="button" id="del0" class="del" onclick='del("cartpic")'>X</button>
+        </tr>
+        <tr id="cartpic1" style="display:none;">
+          <td><img class="smallersize" src="media/album2.jpg" /></td>
+          <td>'I Made' Album</td>
+          <td><button type="button" class="inc" onclick="increase('item1','price1','23.50')">+</button><input readonly id="item1" class="noofitems" type="number" value=1 required /><button type="button" class="dec" onclick="decrease('item1','price1','23.50')">-</button></td>
+          <td><input id="price1" type="number" value="23.50" readonly/></td>
+          <td><button type="button" id="del1" class="del" onclick='del("cartpic1")'>X</button>
+        </tr>
+        <tr id="cartpic2" style="display:none;">
+          <td><img class="smallersize" src="media/album3.jpg" /></td>
+          <td>'I Trust' Album</td>
+          <td><button type="button" class="inc" onclick="increase('item2','price2','26.00')">+</button><input readonly id="item2" class="noofitems" type="number" value=1 required /><button type="button" class="dec" onclick="decrease('item2','price2','26.00')">-</button></td>
+          <td><input id="price2" readonly type="number" value="26.00"/></td>
+          <td><button type="button" id="del2" class="del" onclick='del("cartpic2")'>X</button>
+        </tr>
+        <tr id="cartpic3" style="display:none;">
+          <td><img class="smallersize" src="media/lightstick.jpg" /></td>
+          <td>(G)I-DLE's Lightstick</td>
+          <td><button type="button" class="inc" onclick="increase('item3','price3','52.50')">+</button><input readonly id="item3" class="noofitems" type="number" value=1 required /><button type="button" class="dec" onclick="decrease('item3','price3','52.50')">-</button></td>
+          <td><input id="price3" readonly type="number" value="52.50"/></td>
+          <td><button type="button" id="del3" class="del" onclick='del("cartpic3")'>X</button>
+        </tr>
+        <tr id="cartpic4">
+          <td colspan="5"><button type="button" class="checkout" onclick="checkout()">Check Out</button></td>
+        </tr>
+      </tbody>
+    </table><br>
+  </div>
+  <div id="checkoutform" style="display:none;">
+    <div class="cartbg">
+      <hr>
+      <h2 class="big">Checkout Form</h2>
+      <hr>
+    </div><br>
+    <form id="for" method="get" action="formprocessor.html">
+      <fieldset class="personalinfo">
+        <legend>Personal Information<i id="basket" class="fa fa-user" aria-hidden="true"></i></legend>
+        <label for="fullname">Full Name</label><br>
+        <input type="text" id="fullname" name="fullname" onfocus="this.placeholder=''" required title="Please enter your full name" placeholder="John Lim" /><br><br>
+        <label for="email">Email<i id="basket" class="fa fa-envelope" aria-hidden="true"></i></label><br>
+        <input type="email" id="email" name="email" onfocus="this.placeholder=''" required title="Please enter your email" placeholder="xxx@hotmail.com" /><br><br>
+        <label for="address">Address<i id="basket" class="fa fa-map-marker" aria-hidden="true"></i></label><br>
+        <input type="text" id="address" name="address" onfocus="this.placeholder=''" required title"Please enter your full address" placeholder="17 Wellington Street" /><br>
+      </fieldset><br>
+      <fieldset class="payment">
+        <legend>Payment<i id="basket" class="fa fa-money" aria-hidden="true"></i></legend>
+        <label for="card">Credit Card Type<i id="basket" class="fa fa-credit-card-alt" aria-hidden="true"></i></label><br>
+        <input type="radio" name="card" id="card" value="visa">Visa&nbsp;<i class="fa fa-cc-visa" style="color:white;"></i>
+        <input type="radio" name="card" id="card" value="mastercard"/>Mastercard&nbsp;<i class="fa fa-cc-mastercard" style="color:white;"></i>
+        <input type="radio" name="card" id="card" value="others"/>Others<br><br>
+        <label for="cardno">Credit Card Number</label><br>
+        <input type="text" id="cardno" name="cardno" onfocus="this.placeholder=''" required title="Please enter your credit card number without the hyphens" placeholder="1111-2222-3333-4444" pattern="[0-9]{16}" /><br><br>
+        <label for="expdate">Expiry Date<i id="basket" class="fa fa-calendar" aria-hidden="true"></i></label><br>
+        <input type="date" id="expdate" name="expdate" required title"Please key in the expiry date of your credit card" /><br><br>
+        <label for="cvv">CVV</label><br>
+        <input type="number" id="cvv" name="cvv" onfocus="this.placeholder=''" required placeholder="111" pattern="[0-9]{3}" min="100" max="999" /><br><br>
+        Additional Comments:<br><textarea id="for" name="comments"></textarea><br><br>
+        <input type="checkbox" id="updates" name="updates" value="yes"><label for="updates">Send me updates about my order</label><br>
+      </fieldset><br>
+      <div class="final">
+        <input id="submit" type="submit" value="Confirm Order" />
+        <button id="reset" type="reset" onclick="checkin()">Go Back to Store</button>
+      </div>
+    </form><br><br>
+  </div>
+  <hr>
+  <div class="gotop">
+    <a href="#">Go To The Top</a>
+  </div>
+  <hr>
+  <div class="gridfooter">
+    Follow (G)I-DLE's social media by clicking on the logos: &emsp;&emsp; Youtube <a href="https://www.youtube.com/channel/UCritGVo7pLJLUS8wEu32vow"><i class="fa fa-youtube-play" style="color:red"></i></a> &emsp;
+    Twitter <a href="https://twitter.com/G_I_DLE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter" style="color:#0cf"></i></a>&emsp;
+    Instagram <a href="https://www.instagram.com/official_g_i_dle/?hl=en"><i class="fa fa-instagram"></i></a>
+  </div>
+</body>
+
+</html>

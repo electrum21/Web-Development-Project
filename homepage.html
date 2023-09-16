@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" type="text/css" href="styling.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="fun.js"></script>
+</head>
+
+<body>
+  <div class="gridhome">
+    <nav class="navbar">
+      <a class="navitem current" href=""><i class="fa fa-fw fa-home"></i>Home</a>
+      <a class="navitem" href="history.html"><i id="sticky" class="fa fa-sticky-note" aria-hidden="true"></i>History</a>
+      <span class="drop">
+        <button class="dropper"><a class="navitem" href="members.html"><i class="fa fa-fw fa-user"></i>Members</a></button>
+        <div class="mem">
+        <a href="members.html#soy">Soyeon</a>
+        <a href="members.html#min">Minnie</a>
+        <a href="members.html#shu">Shuhua</a>
+        <a href="members.html#yuq">Yuqi</a>
+        <a href="members.html#miy">Miyeon</a>
+        <a href="members.html#soo">Soojin</a>
+      </div>
+    </span>
+      <a class="navitem" href="store.html"><i id="sticky" class="fa fa-shopping-cart" aria-hidden="true"></i>Store</a>
+    </nav>
+    <div class="a">
+      Homepage
+    </div>
+    <div class="cartbg">
+      <hr>
+      <h2 class="big">Image Gallery<i id="sticky" class="fa fa-picture-o" aria-hidden="true"></i></h2>
+      <hr>
+    </div><br>
+    <div class="b">
+      <img class="itrust" src="media/itrust.jpg" alt="(G)I-DLE's Photoshoot" />
+      <img class="itrust" src="media/itrust1.png" alt="(G)I-DLE's Photoshoot" />
+      <img class="itrust" src="media/itrust2.jpg" alt="(G)I-DLE's Photoshoot" />
+      <img class="itrust" src="media/itrust3.jpg" alt="(G)I-DLE's Photoshoot" />
+    </div>
+    <script>
+      var ind = 0;
+      slideshow();
+
+      function slideshow() {
+        var i;
+        var x = document.getElementsByClassName("itrust");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        ind++;
+        if (ind > x.length) {
+          ind = 1;
+        }
+        x[ind - 1].style.display = "block";
+        setTimeout(slideshow, 2000);
+      }
+    </script>
+    <br>
+    <div class="cartbg">
+      <hr>
+      <h2 class="big">Video Gallery<i id="sticky" class="fa fa-video-camera" aria-hidden="true"></i></h2>
+      <hr>
+    </div>
+    <p class="watch">Watch (G)I-DLE's music videos here:</p>
+    <div class="c">
+      <div class="griditem">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/om3n2ni8luE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/I66oFXdf0KU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2cevbhEqQF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9mQk7Evt6Vs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6oanIo_2Z4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OKNXn2qCEws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/08ATpBqlAIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <p class="watch">Watch (G)I-DLE's ITALK videos here:</p>
+    <div class="d">
+      <div class="griditem1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y5TdZnnFFBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-rpeMCEhCEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vcTbzTjGs28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PwV31p7GkmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YlBcYcgr89I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cIRuLD0-isY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="griditem1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vbor1FfbApM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <p class="watch">Watch (G)I-DLE's Performances here:</p>
+    <div class="cards">
+      <div class="card1">
+        <h1>Oh My God</h1>
+        <iframe id="vid1" width="400" height="226" src="https://www.youtube.com/embed/2kLhGqPLJG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button type="button" class="drop1" onclick="read('desc1','.drop1')">Expand Text</button>
+        <p id="desc1" style="display:none;">(G)I-DLE promoted their title track 'Oh My God' for 3 weeks in April 2020. It was released in both Korean and English through Cube Entertainment on April 6, 2020.
+          The song was composed by Soyeon and long-time collaborator Yummy Tone, while the lyrics for the English version were translated by Lauren Kaori.</p>
+      </div>
+      <div class="card2">
+        <h1>Luv U</h1>
+        <iframe width="400" height="226" src="https://www.youtube.com/embed/-rPJLqE-gN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button type="button" class="drop2" onclick="read('desc2','.drop2')">Expand Text</button>
+        <p id="desc2" style="display:none;">(G)I-DLE performed this track in their newest album 'I Trust' to thank their fans for their support during this period. They asked fans to vote
+          among 5 choices for the outfit of their last performance, and the winning choice was the animal onesies seen in the above video.</p>
+      </div>
+      <div class="card3">
+        <h1>Uh-Oh</h1>
+        <iframe width="400" height="226" src="https://www.youtube.com/embed/JWf7YhXTkaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button type="button" class="drop3" onclick="read('desc3','.drop3')">Expand Text</button>
+        <p id="desc3" style="display:none;">'Uh-Oh' was released on June 26, 2019, by Cube Entertainment as (G)I-DLE's digital single.
+          Uh-Oh ranked number 22 on NetEase Cloud Music China for the first half of 2019.
+          The choreography also reflects the rebellious vibe of the song with lots of powerful moves accompanied with tough expressions.</p>
+      </div>
+      <div class="card4">
+        <h1>Senorita</h1>
+        <iframe width="400" height="226" src="https://www.youtube.com/embed/RjSd4oTbkNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button type="button" class="drop4" onclick="read('desc4','.drop4')">Expand Text</button>
+        <p id="desc4" style="display:none;">'Senorita' was released on February 26, 2019, as the title track from the group's second EP I Made (2019).
+          Billboard described 'Senorita' as a "Latin pop-themed dance track that incorporates castanets and jazzy brass horns alongside groovy rhythmic strings and sleek electronic effects".</p>
+      </div>
+    </div>
+    <hr>
+    <div class="gotop">
+      <a href="#">Go To The Top</a>
+    </div>
+    <hr>
+    <div class="gridfooter">
+      Follow (G)I-DLE's social media by clicking on the logos: &emsp;&emsp; Youtube <a href="https://www.youtube.com/channel/UCritGVo7pLJLUS8wEu32vow"><i class="fa fa-youtube-play" style="color:red"></i></a> &emsp;
+      Twitter <a href="https://twitter.com/G_I_DLE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter" style="color:#0cf"></i></a>&emsp;
+      Instagram <a href="https://www.instagram.com/official_g_i_dle/?hl=en"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+</body>
+
+</html>

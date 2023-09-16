@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+  <title>Form Processor</title>
+  <link href="styling.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a class="navitem" href="homepage.html"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a class="navitem" href="history.html"><i id="sticky" class="fa fa-sticky-note" aria-hidden="true"></i>History</a>
+    <span class="drop">
+      <button class="dropper"><a class="navitem" href="members.html"><i class="fa fa-fw fa-user"></i>Members</a></button>
+      <div class="mem">
+        <a href="members.html#soy">Soyeon</a>
+        <a href="members.html#min">Minnie</a>
+        <a href="members.html#shu">Shuhua</a>
+        <a href="members.html#yuq">Yuqi</a>
+        <a href="members.html#miy">Miyeon</a>
+        <a href="members.html#soo">Soojin</a>
+      </div>
+    </span>
+    <a class="navitem" href="store.html"><i id="sticky" class="fa fa-shopping-cart" aria-hidden="true"></i>Store</a>
+  </nav>
+  <div class="a">
+    Checkout Form
+  </div>
+  <script type="text/javascript">
+    <!-- HIDE FROM INCOMPATIBLE BROWSERS
+    document.write("<h1 class='formh'>Your checkout form has been submitted!</h1><h2 class='formh'>You entered the following data:</h2>");
+    var formData = location.search;
+
+    formData = formData.substring(1, formData.length);
+    while (formData.indexOf("+") != -1) {
+      formData = formData.replace("+", " ");
+    }
+    formData = unescape(formData);
+    var formArray = formData.split("&");
+    document.write("<table border='1' class='formtab'>");
+    for (var i = 0; i < formArray.length; ++i) {
+      document.writeln("<tr><td>" + formArray[i] + "</td></tr>");
+    }
+    document.write("</table>")
+
+    document.write("<p class='formp'>Thank you for shopping with us!</p>")
+    // STOP HIDING FROM INCOMPATIBLE BROWSERS
+    -->
+  </script>
+  <div class="gridfooter">
+    Follow (G)I-DLE's social media by clicking on the logos: &emsp;&emsp; Youtube <a href="https://www.youtube.com/channel/UCritGVo7pLJLUS8wEu32vow"><i class="fa fa-youtube-play" style="color:red"></i></a> &emsp;
+    Twitter <a href="https://twitter.com/G_I_DLE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter" style="color:#0cf"></i></a>&emsp;
+    Instagram <a href="https://www.instagram.com/official_g_i_dle/?hl=en"><i class="fa fa-instagram"></i></a>
+  </div>
+</body>
+
+</html>
