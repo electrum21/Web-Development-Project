@@ -1,5 +1,5 @@
 # Web Development Project
-This is a solo web development project completed as part of Nanyang Polytechnic (NTP) IT1552 Web Development Module.
+This is a solo web development project completed as part of Nanyang Polytechnic (NYP) IT1552 Web Development Module.
 
 ### Project Background
 This project was part of a Web Development module, with the following requirements:
