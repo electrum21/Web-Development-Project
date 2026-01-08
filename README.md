@@ -11,8 +11,9 @@ This project was part of a Web Development module, with the following requiremen
 <br>•	Use Cascading Style Sheets
 <br>•	Use JavaScript
 <br>•	Has a navigation menu to navigate across all pages
-<br> Marks were awarded based on the correctness of HTML, CSS and JS usage, resourcefulness, completeness and quality of work, and website usability.
+<br>Marks were awarded based on the correctness of HTML, CSS and JS usage, resourcefulness, completeness and quality of work, and website usability.
 
 ### Project Outcome
 Since there were no strict requirements on the theme of the website, I developed and designed the website to feature my favourite K-POP Group, (G)I-DLE.
-I attained a Distinction grade for this module.
+<br>I attained a Distinction grade for this module.
+<br>View the website [here](https://electrum21.github.io/Web-Development-Project/homepage.html)
